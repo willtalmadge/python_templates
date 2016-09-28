@@ -1,0 +1,5 @@
+.idea
+develop-eggs
+*.egg-info/
+*.egg
+*.pyc
