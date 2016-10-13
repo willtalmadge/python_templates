@@ -12,7 +12,7 @@ setup(
     author_email='william@rppl.com',
     description='This is my project description',
     entry_points={
-        'console_scripts': ['my_cmd = bin.main:main']
+        'console_scripts': ['my_cmd = my_project.bin.main:main']
     },
     test_suite='tests'
 )

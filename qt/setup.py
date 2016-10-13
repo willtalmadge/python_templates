@@ -12,7 +12,7 @@ setup(
     author_email='william@rppl.com',
     description='This is my project description',
     entry_points={
-        'console_scripts': ['qt_cmd = bin.main:main']
+        'console_scripts': ['qt_cmd = qt_template.bin.main:main']
     },
     test_suite='tests',
     include_package_data=True

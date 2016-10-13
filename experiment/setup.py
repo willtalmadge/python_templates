@@ -12,7 +12,7 @@ setup(
     author_email='william@rppl.com',
     description='This is an experiment',
     entry_points={
-        'console_scripts': ['do_experiment = bin.main:main']
+        'console_scripts': ['do_experiment = my_experiment.bin.main:main']
     },
     test_suite='tests'
 )
